@@ -4,39 +4,44 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
-header {
-    /* background-color: #4682b4; */
-    background-color: #ED9455;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
+.headerin {
+    background-color : #ED9455;
+    display : flex;
+    justify-content:space-between;
+    width : 100%;
+}
+.hader {
+    background-color:#ED9455;
+    padding : 5px;
     display: flex;
-    /* position: sticky; */
-    justify-content: space-between;
+    flex-direction : column;
     align-items: center;
+    color: white;
+}
+.hader.satu, .hader.tiga {
+    padding : 20px;
+}
+.judulna h1 {
+    font-size:28px;
+    text-align : center;
 }
 hr {
     border : 1px solid white;
+    margin-top: -14px;
 }
-header .judulna p {
-    line-height :0px;
-    font-size:22px;
+.judulna p {
+    font-size:13px;
+    margin-top:-4px;
 }
+
 .logo {
-    width: 80px;
+    max-width: 60px;
     height: auto;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
-.subheader {
-    background-color: #FFBB70;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    font-size: 18px;
-}
+
 .container {
     padding: 20px;
 }
@@ -88,7 +93,12 @@ header .judulna p {
 .product ul {
     padding-left: 20px;
 }
-.review {
+
+footer p {
+    text-align : center;
+    opacity : .7;
+}
+/* .review {
     margin-top: 20px;
 }
 .review h3 {
@@ -124,8 +134,8 @@ header .judulna p {
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 10px;
-}
-.decoration {
+} */
+/* .decoration {
     text-align: center;
     margin-top: 20px;
 }
@@ -133,4 +143,4 @@ header .judulna p {
     width: 50px;
     height: 50px;
     margin: 0 10px;
-}
+} */
